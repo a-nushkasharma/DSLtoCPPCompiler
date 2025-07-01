@@ -65,12 +65,12 @@ Note: An example case is already present in  test/contract.dsl and its correcpon
 
 ## Bottlenecks and Challenges encountered in development:
 1. Designing the Grammar
-Creating the grammar for DSL was tricky.
-Had to make sure it was clear, avoided conflicts, and could handle all the language features (like expressions and function calls) correctly.
-Hence startes with implementing small parts of the grammar.
+- Creating the grammar for DSL was tricky.
+-Had to make sure it was clear, avoided conflicts, and could handle all the language features (like expressions and function calls) correctly.
+-Hence startes with implementing small parts of the grammar.
+
+2. Implementing AST for all of the grammar
 ---
-2.Implementing AST for all of the grammar
----
-3.Building System Integration
+3. Building System Integration
 Combining Flex, Bison, and C++ in the same build system caused some issues, like missing header files or files being built in the wrong order.
 
