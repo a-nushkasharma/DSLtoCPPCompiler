@@ -34,7 +34,7 @@ dsl-compiler/
 ---
 # Build Instructions
 ```bash
-git clone 
+git clone https://github.com/a-nushkasharma/DSLtoCPPCompiler.git
 cd (to the file)
 ```
 Incase one wishes to remove the existing build:
@@ -68,7 +68,9 @@ Note: An example case is already present in  test/contract.dsl and its correcpon
 Creating the grammar for DSL was tricky.
 Had to make sure it was clear, avoided conflicts, and could handle all the language features (like expressions and function calls) correctly.
 Hence startes with implementing small parts of the grammar.
+---
 2.Implementing AST for all of the grammar
+---
 3.Building System Integration
 Combining Flex, Bison, and C++ in the same build system caused some issues, like missing header files or files being built in the wrong order.
 
