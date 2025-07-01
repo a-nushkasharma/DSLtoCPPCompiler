@@ -33,6 +33,17 @@ dsl-compiler/
 └── README.md
 ```
 ---
+## System Requirements
+
+To build and run the DSL-to-C++ compiler, the following tools are required:
+
+| Tool            | Version      | Description                                 |
+|-----------------|--------------|---------------------------------------------|
+| **C++ Compiler**| C++17 or newer | Required to compile the generated C++ code |
+| **Flex**        | ≥ 2.6.4      | Lexical analyzer (tokenizer) generator      |
+| **Bison**       | ≥ 3.0        | Parser generator (LALR grammar support)     |
+| **CMake**       | ≥ 3.10       | Cross-platform build system generator       |
+---
 # Build Instructions
 ```bash
 git clone https://github.com/a-nushkasharma/DSLtoCPPCompiler.git
